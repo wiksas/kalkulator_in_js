@@ -13,20 +13,20 @@
     <script src="script.js"></script>
     <div class="gora">
         <form class="calc-form">
-            <input type="number" id="pierwszaliczba" class="liczba">
+            <input type="number" id="pierwszaliczba" class="liczba" onchange="myfunction()">
             <div class="znak" id="znak">+</div>
-            <input type="number" id="drugaliczba" class="liczba">
+            <input type="number" id="drugaliczba" class="liczba" onchange="myfunction()">
             <div class="znak rownania">=</div>
             <div class="wynik"><input type="number" id="wynik" disabled></div>
         </form>
     </div>
     <h2></h2>
     <div class="dzialaniaprzyciski">
-        <div class="dodawania"><button id="dodawanie">+</button></div>
-        <div class="odejmowanie"><button id="odejmowanie">-</button></div>
-        <div class="mnozenie"><button id="mnozenie">*</button></div>
-        <div class="dzielenie"> <button id="dzielenie">/</button></div>
-        <div class="potega"><button id="potega">potega</button></div>
+        <div class="dodawania"><button id="1" onclick="numer(1)">+</button></div>
+        <div class="odejmowanie"><button id="2" onclick="numer(2)">-</button></div>
+        <div class="mnozenie"><button id="3" onclick="numer(3)">*</button></div>
+        <div class="dzielenie"> <button id="4" onclick="numer(4)">/</button></div>
+        <div class="potega"><button id="5" onclick="numer(5)">potega</button></div>
     </div>
 </body>
 
