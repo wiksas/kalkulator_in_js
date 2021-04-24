@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(211, 91, 91);
+    font-size: 50px;
+}
+
+.dzialaniaprzyciski button{
+
+    color: rgb(0, 0, 0);
+ height: 75px;
+ width: 75px;
+} 
+
+.gora input{
+height: 100px;
+background-color: white;
+font-size: 50px;
+margin: 10px;
+
+
+}
+.gora input[disabled]{
+    width: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.dzialaniaprzyciski{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.calc-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.liczba{
+    width: 100px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+
+
