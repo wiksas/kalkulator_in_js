@@ -27,6 +27,7 @@ margin: 10px;
     padding: 10px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .calc-form{
@@ -34,6 +35,7 @@ margin: 10px;
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .liczba{
