@@ -5,12 +5,10 @@ let numer=0;
 
 
 
-function numer(){
-    numer=i;
-}
 
 
-function myfunction(i){
+
+function numer(i){
     if{i==1}{
         wynik=document.getElementById(pierwszaliczba)+document.getElementById(drugaliczba);
     }else if(i==2){
@@ -24,6 +22,8 @@ function myfunction(i){
     }else if(i==0){
         document.getElementById(wynik).textContent = 'najpierw wybierz działanie';
     }
+    document.getElementById(wynik).textContent = wynik;
+
 
 
 
