@@ -19,15 +19,24 @@ margin: 10px;
 
 }
 .gora input[disabled]{
-    width: 10%;
+    width: 100px;
     color: rgb(0, 0, 0);
 }
 
 .dzialaniaprzyciski{
     padding: 10px;
-align-items:flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+.calc-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
 .liczba{
     width: 100px;
@@ -41,8 +50,5 @@ h2{
     margin-bottom: 2%;
   }
 
-  div{
-    text-align: center;
-}
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <script src="script.js"></script>
-
-<div class="gora">
-<form>
-<input type="number" id="pierwszaliczba" class="liczba">
-<div class="znak" id="znak">+</div>
-<input type="number" id="drugaliczba" class="liczba">
-<div class="wynik">=<input type="number" id="wynik" disabled></div>
-</form>
-
-</div>
-
-<h2></h2>
-
-<div class="dzialaniaprzyciski">
-
-    <div class="dodawania"><button id="dodawanie">+</button></div>
-    <div class="odejmowanie"><button id="odejmowanie">-</button></div>
-    <div class="mnozenie"><button id="mnozenie">*</button></div>
-    <div class="dzielenie"> <button id="dzielenie">/</button></div>
-    <div class="potega"><button id="potega">potega</button></div>
-
-</div>
-
+    <div class="gora">
+        <form class="calc-form">
+            <input type="number" id="pierwszaliczba" class="liczba">
+            <div class="znak" id="znak">+</div>
+            <input type="number" id="drugaliczba" class="liczba">
+            <div class="znak rownania">=</div>
+            <div class="wynik"><input type="number" id="wynik" disabled></div>
+        </form>
+    </div>
+    <h2></h2>
+    <div class="dzialaniaprzyciski">
+        <div class="dodawania"><button id="dodawanie">+</button></div>
+        <div class="odejmowanie"><button id="odejmowanie">-</button></div>
+        <div class="mnozenie"><button id="mnozenie">*</button></div>
+        <div class="dzielenie"> <button id="dzielenie">/</button></div>
+        <div class="potega"><button id="potega">potega</button></div>
+    </div>
 </body>
+
 </html>
